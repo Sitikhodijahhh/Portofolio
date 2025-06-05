@@ -360,3 +360,27 @@ header input {
     grid-template-columns: 1fr;
   }
 }
+.cv-buttons {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.btn-cv {
+  padding: 10px 20px;
+  background-image: var(--gradient-bg);
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: var(--box-shadow);
+  transition: 0.3s;
+}
+
+.btn-cv:hover {
+  opacity: 0.8;
+}
